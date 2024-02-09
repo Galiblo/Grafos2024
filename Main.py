@@ -25,10 +25,12 @@ print("Grafo original")
 G.DFS()
 print(G)
 
+"""
 print("Grafo Kruskal")
 arbol_minimo = G.kruskal()
 G.imprimir_arbol_minimo(arbol_minimo)
 print()
+"""
 
 print("Grafo Prim")
 nodo_inicial = "s"  # inicio del algoritmo prim
